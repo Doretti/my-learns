@@ -127,4 +127,4 @@ class SkipList {
   }
 }
 
-exports.default = SkipList
+exports.SkipList = SkipList
