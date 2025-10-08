@@ -1,4 +1,4 @@
-class AVLTree {
+export class AVLTree {
   constructor() {
     this.root = null
   }
@@ -113,5 +113,3 @@ class AVLNode {
     this.left = left
   }
 }
-
-exports.AVLTree = AVLTree

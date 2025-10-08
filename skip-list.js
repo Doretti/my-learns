@@ -5,7 +5,7 @@ class SkipListNode {
   }
 }
 
-class SkipList {
+export class SkipList {
   static MAX_LEVEL = 16
 
   constructor() {
@@ -126,5 +126,3 @@ class SkipList {
     return foundNode !== null && foundNode.value === value
   }
 }
-
-exports.SkipList = SkipList

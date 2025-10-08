@@ -6,7 +6,7 @@ class BinarySearchTreeNode {
   }
 }
 
-class BinarySearchTree {
+export class BinarySearchTree {
   constructor() {
     this.root = null
   }
@@ -137,5 +137,3 @@ class BinarySearchTree {
     return this._isValid(this.root)
   }
 }
-
-exports.BinarySearchTree = BinarySearchTree
